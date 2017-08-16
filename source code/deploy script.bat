@@ -1,0 +1,15 @@
+xcopy "d:\programe c\SimpleGameEngine\Debug\SimpleGameEngine.exe" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\wr1.png" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\wr2.png" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\wr3.png" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\wr4.png" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\wr5.png" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\wr6.png" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\wr7.png" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\wr8.png" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\wr9.png" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\wr10.png" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\wr11.png" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\wr12.png" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\wr13.png" "d:\programe c\game_deploy" /Y
+xcopy "d:\programe c\SimpleGameEngine\psy_start_1.png" "d:\programe c\game_deploy" /Y
