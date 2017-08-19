@@ -8,7 +8,7 @@ void Engine::draw()
 
 	// Draw the background
 	m_Window.draw(m_BackgroundSprite);
-	
+	//printf("ajung aici");
 	m_Window.draw(m_Bob.getSprite());
 
 	// Show everything we have just drawn

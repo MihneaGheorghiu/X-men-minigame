@@ -15,13 +15,18 @@ private:
 	// Of course we will need a sprite
 	Sprite m_Sprite;
 
-	// And a texture
-	// Bob has been working out and he is now a bit more muscular than before
-	// Furthermore, he fancies himself in lumberjack attire
+	// And a texture...for each frame
 	Texture m_Texture;
-	Texture wr_Texture[13];
-	int indice_wr;
+	Texture wr_Texture[13]; //textures for walking right
+	Texture wl_Texture[13]; //textures for walking left
+	Texture sb_Texture[3]; //texture for the speedbike intro
 
+	int indice_wr;
+	int indice_wl;
+	int indice_sb;
+
+	int look_position; //standard standing position for psylocke
+					  // will be 0 for looking right and 1 for left
 
 	// Which direction(s) is the player currently moving in
 	bool m_LeftPressed;
@@ -51,5 +56,11 @@ public:
 
 	// We will call this function once every frame
 	void update(float elapsedTime);
+
+	void movePos(float x, float y);
+
+	int getXPosition();
+
+	void sbFlight(float elapsedTime);
 
 };
